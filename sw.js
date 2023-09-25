@@ -1,9 +1,14 @@
 const staticCacheName = "version-1"
 const urlsToCache = [
-    "/react-basic/index.html",'/react-basic/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg','/react-basic/static/js/bundle.js','/react-basic/manifest.json','/react-basic/icons/logo-192x192.png'
+    "/reactProject_BR#/",
+    //'/react-basic/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg',
+    '/reactProject_BR/static/js/bundle.js',
+    //'/react-basic/icons/logo-192x192.png',
+    '/reactProject_BR/manifest.json'
 ]
 
 const dynamicCache = "dynamicCache";
+
 
 const limitCacheSize = (name, size)=>{
     caches.open(name).then(cache=>{
@@ -16,6 +21,7 @@ const limitCacheSize = (name, size)=>{
 }
 
 this.addEventListener('install', (event)=>{
+    
     event.waitUntil(
         caches.open(staticCacheName).then((cache)=>{
             console.log('Opend Cache')
