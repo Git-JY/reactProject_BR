@@ -1,0 +1,35 @@
+{
+  "short_name": "책과 리뷰한잔",
+  "name": "책과 리뷰한잔 (A book and a sip of Review)",
+  "icons": [
+    {
+      "src": "./icons/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "./icons/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "./icons/favicon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "./icons/apple-touch-icon-120x120.png",
+      "type": "image/png",
+      "sizes": "120x120"
+    },
+    {
+      "src": "./icons/apple-touch-icon-152x152.png",
+      "type": "image/png",
+      "sizes": "152x152"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
