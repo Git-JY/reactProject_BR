@@ -2,7 +2,7 @@
 
 const staticCacheName = "version-1"
 const urlsToCache = [
-    "/reactProject_BR#",
+    "/reactProject_BR#/",
     //'/react-basic/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg',
     '/reactProject_BR/static/js/bundle.js',
     //'/react-basic/icons/logo-192x192.png',
@@ -12,7 +12,7 @@ const urlsToCache = [
 const dynamicCache = "dynamicCache";
 
 
-const limitCacheSize = (name, size)=>{
+const limitCacheSize = (name, size) => {
     
     caches.open(name).then(cache=>{
         cache.keys().then(keys=>{
@@ -21,7 +21,7 @@ const limitCacheSize = (name, size)=>{
             }
         })
     })
-}
+}//limitCacheSize() 함수정의
 
 this.addEventListener('install', (event)=>{ //install에서 캐시 열고
     console.log('install');
