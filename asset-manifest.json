@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/reactProject_BR/static/css/main.0ac7f8f8.css",
+    "main.css": "/reactProject_BR/static/css/main.bba3895c.css",
     "main.js": "/reactProject_BR/static/js/main.14b3885b.js",
     "static/js/787.61823a59.chunk.js": "/reactProject_BR/static/js/787.61823a59.chunk.js",
     "static/media/waveSound.mp3": "/reactProject_BR/static/media/waveSound.c3310e211217e6482390.mp3",
@@ -30,12 +30,12 @@
     "static/media/icon_x_white.svg": "/reactProject_BR/static/media/icon_x_white.efb836f6ab93f37b9e7c.svg",
     "static/media/icon_belowArrow.svg": "/reactProject_BR/static/media/icon_belowArrow.ec8b8cf75d9aafbf364c.svg",
     "static/media/icon_menu.svg": "/reactProject_BR/static/media/icon_menu.ec4f190252af103ac0b0.svg",
-    "main.0ac7f8f8.css.map": "/reactProject_BR/static/css/main.0ac7f8f8.css.map",
+    "main.bba3895c.css.map": "/reactProject_BR/static/css/main.bba3895c.css.map",
     "main.14b3885b.js.map": "/reactProject_BR/static/js/main.14b3885b.js.map",
     "787.61823a59.chunk.js.map": "/reactProject_BR/static/js/787.61823a59.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0ac7f8f8.css",
+    "static/css/main.bba3895c.css",
     "static/js/main.14b3885b.js"
   ]
 }
