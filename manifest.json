@@ -102,6 +102,11 @@
         "src": "./icons/favicon-128.png",
         "type": "image/png",
         "sizes": "128x128"
+      },
+      {
+        "src": "./icons/512x512.png",
+        "type": "image/png",
+        "sizes": "512x512"
       }
     ],
     "categories": [
