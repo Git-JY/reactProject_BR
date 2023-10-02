@@ -1,4 +1,40 @@
 {
+    "iarc_rating_id": "",
+    "handler_links": "auto",
+    "file_handlers": [
+      {
+        "action": "/open-pdf",
+        "accept": {
+          "application/pdf": [".pdf"]
+        },
+        "icons": [
+          {
+            "src": "./icons/512x512.png",
+            "sizes": "256x256",
+            "type": "image/png"
+          }
+        ],
+        "launch_type": "single-client"
+      },
+      {
+        "action": "/show-model",
+        "accept": {
+          "application/sla": ".stl",
+          "application/octet-stream": ".fbx"
+        },
+        "icons": [
+          {
+            "src": "./icons/512x512.png",
+            "sizes": "256x256",
+            "type": "image/png"
+          }
+        ],
+        "launch_type": "multiple-clients"
+      }
+  
+  ],
+
+
     "id": "/",
     "dir": "ltr",
     "lang": "en",
