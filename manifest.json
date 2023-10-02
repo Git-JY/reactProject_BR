@@ -1,90 +1,165 @@
 {
-  "short_name": "책과 리뷰한잔",
-  "name": "책과 리뷰한잔 (A book and a sip of Review)",
-  "icons": [
-    {
-      "src": "./icons/favicon-16x16.png",
-      "sizes": "16x16",
-      "type": "image/png"
+  "manifestUrl": "https://git-jy.github.io/reactProject_BR/",
+  "manifestScore": {
+    "hasManifest": 10,
+    "icons": 10,
+    "name": 10,
+    "short_name": 10,
+    "start_url": 10,
+    "hasSquarePng512Icon": 10,
+    "squarePng512IconResolves": 10,
+    "display": 10,
+    "background_color": 10,
+    "theme_color": 10,
+    "orientation": 10,
+    "screenshots": 10,
+    "maskable_icon": 10,
+    "shortcuts": 10,
+    "categories": 10,
+    "iconsSpecifySize": 10,
+    "iconsSpecifyType": 10,
+    "iarc_rating_id": 0,
+    "related_applications": 10
+  },
+  "manifestContents": {
+    "id": "/",
+    "dir": "ltr",
+    "lang": "en",
+    "name": "책과 리뷰한잔 (A book and a sip of Review)",
+    "scope": "/",
+    "display": "standalone",
+    "start_url": "https://git-jy.github.io/reactProject_BR/",
+    "short_name": "책과 리뷰한잔",
+    "theme_color": "#7A9D54",
+    "description": "책을 검색하고 관련 리뷰를 손 쉽게 확인할 수 있습니다.",
+    "orientation": "any",
+    "background_color": "#FFFFFF",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "display_override": [
+      "window-controls-overlay"
+    ],
+    "screenshots": [
+      {
+        "src": "./icons/screenshot1"
+      },
+      {
+        "src": "./icons/screenshot2"
+      },
+      {
+        "src": "./icons/screenshot3"
+      },
+      {
+        "src": "./icons/screenshot4"
+      },
+      {
+        "src": "./icons/screenshot5"
+      }
+    ],
+    "features": [
+      "fast book Search"
+    ],
+    "icons": [
+      {
+        "src": "./icons/favicon-16x16.png",
+        "sizes": "16x16",
+        "type": "image/png"
+      },
+      {
+        "src": "./icons/favicon-32x32.png",
+        "sizes": "32x32",
+        "type": "image/png"
+      },
+      {
+        "src": "./icons/favicon-96x96.png",
+        "sizes": "96x96",
+        "type": "image/png"
+      },
+      {
+        "src": "./icons/apple-touch-icon-120x120.png",
+        "type": "image/png",
+        "sizes": "120x120"
+      },
+      {
+        "src": "./icons/apple-touch-icon-152x152.png",
+        "type": "image/png",
+        "sizes": "152x152"
+      },
+      {
+        "src": "./icons/apple-touch-icon-57x57.png",
+        "type": "image/png",
+        "sizes": "57x57"
+      },
+      {
+        "src": "./icons/apple-touch-icon-114x114.png",
+        "type": "image/png",
+        "sizes": "114x114"
+      },
+      {
+        "src": "./icons/apple-touch-icon-72x72.png",
+        "type": "image/png",
+        "sizes": "72x72"
+      },
+      {
+        "src": "./icons/apple-touch-icon-144x144.png",
+        "type": "image/png",
+        "sizes": "144x144"
+      },
+      {
+        "src": "./icons/apple-touch-icon-60x60.png",
+        "type": "image/png",
+        "sizes": "60x60"
+      },
+      {
+        "src": "./icons/apple-touch-icon-76x76.png",
+        "type": "image/png",
+        "sizes": "76x76"
+      },
+      {
+        "src": "./icons/favicon-196x196.png",
+        "type": "image/png",
+        "sizes": "196x196",
+        "purpose": "any"
+      },
+      {
+        "src": "./icons/favicon-128.png",
+        "type": "image/png",
+        "sizes": "128x128"
+      }
+    ],
+    "categories": [
+      "books",
+      "shopping",
+      "utilities"
+    ],
+    "launch_handler": {
+      "client_mode": "navigate-existing"
     },
-    {
-      "src": "./icons/favicon-32x32.png",
-      "sizes": "32x32",
-      "type": "image/png"
-    },
-    {
-      "src": "./icons/favicon-96x96.png",
-      "sizes": "96x96",
-      "type": "image/png"
-    },
-    {
-      "src": "./icons/apple-touch-icon-120x120.png",
-      "type": "image/png",
-      "sizes": "120x120"
-    },
-    {
-      "src": "./icons/apple-touch-icon-152x152.png",
-      "type": "image/png",
-      "sizes": "152x152"
-    },
-
-
-    {
-      "src": "./icons/apple-touch-icon-57x57.png",
-      "type": "image/png",
-      "sizes": "57x57"
-    },
-    {
-      "src": "./icons/apple-touch-icon-114x114.png",
-      "type": "image/png",
-      "sizes": "114x114"
-    },
-    {
-      "src": "./icons/apple-touch-icon-72x72.png",
-      "type": "image/png",
-      "sizes": "72x72"
-    },
-    {
-      "src": "./icons/apple-touch-icon-144x144.png",
-      "type": "image/png",
-      "sizes": "144x144"
-    },
-    {
-      "src": "./icons/apple-touch-icon-60x60.png",
-      "type": "image/png",
-      "sizes": "60x60"
-    },
-
-    {
-      "src": "./icons/apple-touch-icon-76x76.png",
-      "type": "image/png",
-      "sizes": "76x76"
-    },
-
-
-
-
-
-    {
-      "src": "./icons/favicon-196x196.png",
-      "type": "image/png",
-      "sizes": "196x196",
-      "purpose": "any"
-    },
-    {
-      "src": "./icons/favicon-128.png",
-      "type": "image/png",
-      "sizes": "128x128"
-    }
-
-
-
-
-
-
-  ],
-  "start_url": "https://git-jy.github.io/reactProject_BR/",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+    "edge_side_panel": {},
+    "shortcuts": [
+      {
+        "name": "책과 리뷰한잔 (A book and a sip of Review)",
+        "short_name": "책과 리뷰한잔",
+        "description": "책을 검색하고 관련 리뷰를 손 쉽게 확인할 수 있습니다.",
+        "url": "/",
+        "icons": [
+          {
+            "src": "./icons/favicon-196x196.png",
+            "sizes": "196x196"
+          }
+        ]
+      }
+    ]
+  },
+  "error": null,
+  "manifestContainsInvalidJson": false,
+  "warnings": {},
+  "additionalManifests": {}
 }
+
+
+
+
+
+
+
