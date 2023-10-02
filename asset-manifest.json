@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/reactProject_BR/static/css/main.38516d8b.css",
-    "main.js": "/reactProject_BR/static/js/main.4296dd72.js",
+    "main.css": "/reactProject_BR/static/css/main.478fdbca.css",
+    "main.js": "/reactProject_BR/static/js/main.9d9ac802.js",
     "static/js/787.61823a59.chunk.js": "/reactProject_BR/static/js/787.61823a59.chunk.js",
     "static/media/waveSound.mp3": "/reactProject_BR/static/media/waveSound.c3310e211217e6482390.mp3",
     "static/media/firewoodSound.mp3": "/reactProject_BR/static/media/firewoodSound.56b11ec8ce03074f8ca5.mp3",
@@ -9,7 +9,6 @@
     "static/media/rainSound.mp3": "/reactProject_BR/static/media/rainSound.2bf983f0b497795ec168.mp3",
     "static/media/smallRiverSound.mp3": "/reactProject_BR/static/media/smallRiverSound.036deb4a1a66a3ee7db4.mp3",
     "static/media/seagullSound.mp3": "/reactProject_BR/static/media/seagullSound.73e85ee2784766f554aa.mp3",
-    "static/media/background.jpg": "/reactProject_BR/static/media/background.eda62b862c6f84ac8eae.jpg",
     "static/media/YeongdeokBlueroad.woff2": "/reactProject_BR/static/media/YeongdeokBlueroad.05645e3525a3d0f360d4.woff2",
     "static/media/whiteNoise_smallRiver.jpg": "/reactProject_BR/static/media/whiteNoise_smallRiver.dee2c116b3863a8784d6.jpg",
     "static/media/whiteNoise_wave.jpg": "/reactProject_BR/static/media/whiteNoise_wave.ce440d25a225484a0744.jpg",
@@ -18,6 +17,7 @@
     "static/media/whiteNoise_bird.jpg": "/reactProject_BR/static/media/whiteNoise_bird.38ac7fe987227a0f0b67.jpg",
     "static/media/whiteNoise_seagull.jpg": "/reactProject_BR/static/media/whiteNoise_seagull.f11604dfb31fd04dba2b.jpg",
     "static/media/logo_BookReview2_noSearch_green.svg": "/reactProject_BR/static/media/logo_BookReview2_noSearch_green.2a65f49d800d6fa3a06743575cd4d9bc.svg",
+    "static/media/background2.svg": "/reactProject_BR/static/media/background2.a4b7306af053122191df.svg",
     "service-worker.js": "/reactProject_BR/service-worker.js",
     "index.html": "/reactProject_BR/index.html",
     "static/media/icon_kakaoLogo.svg": "/reactProject_BR/static/media/icon_kakaoLogo.3549acff3d39eb438ac9.svg",
@@ -31,12 +31,12 @@
     "static/media/icon_x_white.svg": "/reactProject_BR/static/media/icon_x_white.efb836f6ab93f37b9e7c.svg",
     "static/media/icon_belowArrow.svg": "/reactProject_BR/static/media/icon_belowArrow.ec8b8cf75d9aafbf364c.svg",
     "static/media/icon_menu.svg": "/reactProject_BR/static/media/icon_menu.ec4f190252af103ac0b0.svg",
-    "main.38516d8b.css.map": "/reactProject_BR/static/css/main.38516d8b.css.map",
-    "main.4296dd72.js.map": "/reactProject_BR/static/js/main.4296dd72.js.map",
+    "main.478fdbca.css.map": "/reactProject_BR/static/css/main.478fdbca.css.map",
+    "main.9d9ac802.js.map": "/reactProject_BR/static/js/main.9d9ac802.js.map",
     "787.61823a59.chunk.js.map": "/reactProject_BR/static/js/787.61823a59.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.38516d8b.css",
-    "static/js/main.4296dd72.js"
+    "static/css/main.478fdbca.css",
+    "static/js/main.9d9ac802.js"
   ]
 }
