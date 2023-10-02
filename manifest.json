@@ -1,6 +1,4 @@
 {
-  "manifestUrl": "https://git-jy.github.io/reactProject_BR/",
-  "manifestContents": {
     "id": "/",
     "dir": "ltr",
     "lang": "en",
@@ -129,11 +127,6 @@
         ]
       }
     ]
-  },
-  "error": null,
-  "manifestContainsInvalidJson": false,
-  "warnings": {},
-  "additionalManifests": {}
 }
 
 

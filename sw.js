@@ -23,6 +23,8 @@ const limitCacheSize = (name, size) => {
     })
 }//limitCacheSize() 함수정의
 
+
+
 this.addEventListener('install', (event)=>{ //install에서 캐시 열고
     console.log('install');
     
@@ -32,7 +34,7 @@ this.addEventListener('install', (event)=>{ //install에서 캐시 열고
             return cache.addAll(urlsToCache); //연 후에, 위에 등록한 배열에 적힌 url 전부 넣기
         })
     ) 
-})
+})//this.addEventListener('install'
     
 this.addEventListener('fetch', event => { //다이나믹 캐시 생성해서 동적으로 캐시 등록
     console.log('fetch');
