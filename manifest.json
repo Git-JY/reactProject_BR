@@ -1,26 +1,5 @@
 {
   "manifestUrl": "https://git-jy.github.io/reactProject_BR/",
-  "manifestScore": {
-    "hasManifest": 10,
-    "icons": 10,
-    "name": 10,
-    "short_name": 10,
-    "start_url": 10,
-    "hasSquarePng512Icon": 10,
-    "squarePng512IconResolves": 10,
-    "display": 10,
-    "background_color": 10,
-    "theme_color": 10,
-    "orientation": 10,
-    "screenshots": 10,
-    "maskable_icon": 10,
-    "shortcuts": 10,
-    "categories": 10,
-    "iconsSpecifySize": 10,
-    "iconsSpecifyType": 10,
-    "iarc_rating_id": 0,
-    "related_applications": 10
-  },
   "manifestContents": {
     "id": "/",
     "dir": "ltr",
