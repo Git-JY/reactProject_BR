@@ -28,7 +28,7 @@ const limitCacheSize = (name, size) => {
 this.addEventListener('install', (event)=>{ //install에서 캐시 열고
     console.log('install');
     
-    event.waitUntil(
+    event.waitUntil( // 서비스 워커(캐시) 열기
         caches.open(staticCacheName).then((cache)=>{ //오픈된 캐시가 들어옮
             console.log('Opend Cache')
             return cache.addAll(urlsToCache); //연 후에, 위에 등록한 배열에 적힌 url 전부 넣기
@@ -43,9 +43,9 @@ this.addEventListener('fetch', event => { //다이나믹 캐시 생성해서 동
         caches.match(event.request).then(cacheRes=>{
                                //인더넷이 되었을 경우
             return cacheRes || fetch(event.request).then(fetchRes=>{
-                return caches.open(dynamicCache).then(cache => {
+                return caches.open(dynamicCache).then(cache => { // 내 현 캐시 daynamicCache에 넣기
                     cache.put(event.request.url, fetchRes.clone());
-                    limitCacheSize(dynamicCache, 10); //캐시가 10개가 등록되고 더 등록되면 삭제됨 //0번째부터 삭제됨 (위에 limitCacheSize함수 확인)
+                    limitCacheSize(dynamicCache, 500); //캐시가 10개가 등록되고 더 등록되면 삭제됨 //0번째부터 삭제됨 (위에 limitCacheSize함수 확인)
                     return fetchRes;
                 })
             })
@@ -63,7 +63,7 @@ this.addEventListener('activate', event=>{
     event.waitUntil(
         caches.keys().then(keys => {
             console.log('배열', keys);
-            return Promise.all(keys
+            return Promise.all(keys //"version-1"과 같지 않은 모든 캐시(이전에 있었던 다른 앱들의 dynamicCache들) 제거
                 .filter(key=> key !== staticCacheName) //"version-1"과 같지 않으므로 "dynamicCache"을 뜻함, 
                 .map(key => caches.delete(key)) //"version-1"만 남기고 지우겠다
             )
